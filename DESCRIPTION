@@ -3,6 +3,5 @@ Title: Web App
 Version: 0.1.0
 Imports:
   shiny,
-ADAPT
-Remotes:
-  MarnieMaddock/ADAPT
+  ADAPT
+
