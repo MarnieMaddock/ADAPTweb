@@ -1,0 +1,18 @@
+
+ From ADAPT rproj file
+
+renv::install(
+  "C:/Users/marni/University of Wollongong/UOW-RB00962-MitoMorph - General/Collab/Jill Napierala_APP/KD_vs_FRDA_app"
+)
+
+#check it works
+library(ADAPT)
+
+ADAPT::run_app()
+
+#updTE lock file
+renv::snapshot()
+
+rsconnect::writeManifest()
+
+#go to posit connect and redeploy
