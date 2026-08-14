@@ -35,7 +35,7 @@
     "ADAPT": {
       "Package": "ADAPT",
       "Version": "1.0.0",
-      "Source": "Local",
+      "Source": "GitHub",
       "Title": "XXXX",
       "Authors@R": "c(person(\"Marnie\", \"Maddock\", role = c(\"aut\",\"cre\"), email = \"mlm715@uowmail.edu.au\"))",
       "Description": "",
@@ -88,10 +88,15 @@
       "BugReports": "https://github.com/MarnieMaddock/FRDATranscriptomicAtlas/issues",
       "Config/Needs/website": "true",
       "Config/roxygen2/version": "8.0.0",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "ADAPT",
+      "RemoteUsername": "MarnieMaddock",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "ff516f8e59b02b1b871d036f612926c302746248",
+      "NeedsCompilation": "no",
       "Author": "Marnie Maddock [aut, cre]",
-      "Maintainer": "Marnie Maddock <mlm715@uowmail.edu.au>",
-      "RemoteType": "local",
-      "RemoteUrl": "C:/Users/marni/University of Wollongong/UOW-RB00962-MitoMorph - General/Collab/Jill Napierala_APP/KD_vs_FRDA_app"
+      "Maintainer": "Marnie Maddock <mlm715@uowmail.edu.au>"
     },
     "AnnotationDbi": {
       "Package": "AnnotationDbi",

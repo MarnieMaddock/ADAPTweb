@@ -16,8 +16,8 @@
   },
   "packages": {
     "ADAPT": {
-      "Source": "BioCsoft",
-      "Repository": "https://bioconductor.org/packages/3.23/bioc",
+      "Source": "github",
+      "Repository": null,
       "description": {
         "Package": "ADAPT",
         "Title": "XXXX",
@@ -28,17 +28,27 @@
         "Encoding": "UTF-8",
         "Roxygen": "list(markdown = TRUE)",
         "Depends": "R (>= 4.3)",
-        "Imports": "arrow,\nshiny,\nfontawesome,\ndplyr,\nmagrittr,\npurrr,\nggplot2,\nbslib,\nplotly,\nstringr,\nrlang,\nmetafor,\nshinyjs,\nshinycssloaders,\nsvglite,\ntibble,\nreadr,\nggVennDiagram,\ncirclize,\ntidyr,\ngrid,\nDT,\nmemoise,\nragg,\ndata.table,\nhtmltools,\npatchwork,\nglue,\nComplexHeatmap,\nSummarizedExperiment,\nmagick,\nDESeq2,\nAnnotationDbi,\norg.Hs.eg.db",
+        "Imports": "arrow, shiny, fontawesome, dplyr, magrittr, purrr, ggplot2,\nbslib, plotly, stringr, rlang, metafor, shinyjs,\nshinycssloaders, svglite, tibble, readr, ggVennDiagram,\ncirclize, tidyr, grid, DT, memoise, ragg, data.table,\nhtmltools, patchwork, glue, ComplexHeatmap,\nSummarizedExperiment, magick, DESeq2, AnnotationDbi,\norg.Hs.eg.db",
         "Suggests": "BiocManager",
         "URL": "https://github.com/MarnieMaddock/FRDATranscriptomicAtlas",
         "BugReports": "https://github.com/MarnieMaddock/FRDATranscriptomicAtlas/issues",
         "Config/Needs/website": "true",
         "Config/roxygen2/version": "8.0.0",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "ADAPT",
+        "RemoteUsername": "MarnieMaddock",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "ff516f8e59b02b1b871d036f612926c302746248",
+        "GithubRepo": "ADAPT",
+        "GithubUsername": "MarnieMaddock",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "ff516f8e59b02b1b871d036f612926c302746248",
+        "NeedsCompilation": "no",
+        "Packaged": "2026-08-14 10:09:14 UTC; marni",
         "Author": "Marnie Maddock [aut, cre]",
         "Maintainer": "Marnie Maddock <mlm715@uowmail.edu.au>",
-        "Built": "R 4.6.0; ; 2026-08-14 09:20:01 UTC; windows",
-        "RemoteType": "local",
-        "RemoteUrl": "C:/Users/marni/University of Wollongong/UOW-RB00962-MitoMorph - General/Collab/Jill Napierala_APP/KD_vs_FRDA_app"
+        "Built": "R 4.6.0; ; 2026-08-14 10:09:18 UTC; windows"
       }
     },
     "AnnotationDbi": {
@@ -5471,7 +5481,7 @@
       "checksum": "7f3003188f3a78fd085feca239edcc60"
     },
     ".Rprofile": {
-      "checksum": "f66989b995fdb7b416fcde5f19fde16c"
+      "checksum": "8f5329add2671bf2df3a7fc30b026fe0"
     },
     "app.R": {
       "checksum": "501b97640b5cc95ffe799a4af0d7cb31"
@@ -5483,7 +5493,7 @@
       "checksum": "b6643bfcdbd2fbab6f8428ae80cda356"
     },
     "renv.lock": {
-      "checksum": "19354826dc54f7b0d342ccfab05f5cf8"
+      "checksum": "402e56b3be4840eb6263ff6b0886ac1b"
     }
   },
   "users": null
